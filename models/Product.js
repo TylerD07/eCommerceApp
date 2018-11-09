@@ -12,31 +12,3 @@ module.exports = function(connection, Sequelize) {
 
 
 
-// class Product {
-//     consructor(productName, deptName, price, quantity){
-//         this.name: productName,
-//         this.department = deptName,
-//         this.price = price,
-//         this.numberStock = quantity
-//     }
-// }
-
-// const BomberJacket = new Product();
-//   
-//
-
-// const Blazer = new Product();
-
-// const Cardigan = new Product();
-
-// const PresidentialRolex = new Product();
-
-// const CartierShades = new Product
-
-// const VersaceCubanLink = new Product()
-
-// class  extends Product{
-//     constructor(){
-//         super(productName, deptName, price, quantity)
-//     }
-// }
