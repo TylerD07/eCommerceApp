@@ -1,5 +1,3 @@
-const Sequelize = require("Sequelize");
-
 module.exports = function(connection, Sequelize) {
     const Product = connection.define('Product', {
         productName: Sequelize.STRING,
@@ -7,9 +5,8 @@ module.exports = function(connection, Sequelize) {
         price: Sequelize.INTEGER,
         availibleStock: Sequelize.INTEGER
     });
-  
     return Product;
-  }
+}
 
 
 
