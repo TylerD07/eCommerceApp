@@ -36,6 +36,8 @@ function createProductCard(product) {
                 <div class="row">
                     <div class="col m-3 p-3">
                         <b>Rs. ${product.price}</b>
+                        <b>Rs. ${product.availableStock}</b>
+
                     </div>
                 <button class="col btn-primary m-3">Buy</button>
                 </div>
