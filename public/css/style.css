@@ -1,4 +1,4 @@
-body {
+body{
   background: url(./catalog.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,5 +20,9 @@ color: rgb(102, 255, 235);
 }
   
 #navbarDropdown{
+  color:  rgb(102, 255, 235);
+}
+
+.center{
   color:  rgb(102, 255, 235);
 }
