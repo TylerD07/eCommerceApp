@@ -1,3 +1,5 @@
+const cart = [];
+
 $(function() {
   let productList = $("#product-list");
 
@@ -12,6 +14,7 @@ $(function() {
 function fetchProducts(done) {
   $.get("/api/products", function(data) {
     done(data);
+    console.log(data);
   });
 }
 
@@ -43,3 +46,4 @@ function createProductCard(product) {
                 </div>
             </div>`);
 }
+
